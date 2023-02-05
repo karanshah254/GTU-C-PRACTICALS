@@ -7,20 +7,10 @@
 ****
 
 
-2.
-
-
-*****
-****
-***
-**
-*
-
 */
 
 
 #include<stdio.h>
-void q1();
 int main()
 
 {
@@ -44,20 +34,5 @@ int main()
 
     }
 
-    q1();
-}
-void q1()
-{
-    printf("\n\n\n");
-    int n,i,j;
     
-    for(int i=n;i>1;i--)
-    {
-        for(int j=i;j>i;j--)
-        {
-            printf("*");
-        }
-
-        printf("\n");
-    }
 }
