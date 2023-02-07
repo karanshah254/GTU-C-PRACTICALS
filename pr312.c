@@ -1,12 +1,11 @@
 /*
 
-2.
+ABCDE
+ABCD
+ABC
+AB
+A
 
-12345
-1234
-123
-12
-1
 
 */
 
@@ -19,7 +18,7 @@ int main()
     {
         for(j=1; j<=i; j++)
         {
-            printf("%d", j);
+            printf("%c", j+64);
         }
         printf("\n");
     }
