@@ -1,16 +1,16 @@
-//Write a program to read three numbers from keyboard and find out maximum out of these three. (nested if else)
+// Write a program to read three numbers from keyboard and find out maximum out of these three. (nested if else)
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int a,b,c;
+    int a, b, c;
 
     printf("\nEnter 3 Numbers a , b , c Of User Choice : \n");
-    scanf("%d %d %d",&a,&b,&c);
+    scanf("%d %d %d", &a, &b, &c);
 
-    if(a>b)
+    if (a > b)
     {
-        if(a>c)
+        if (a > c)
         {
             printf("\na is maximum");
         }
@@ -19,13 +19,12 @@ int main()
             printf("\nc is maximum");
         }
     }
-    else if(b>c)
+    else if (b > c)
     {
         printf("\nb is maximum");
     }
-    else{
+    else
+    {
         printf("\nc is maximum");
     }
-
-
 }

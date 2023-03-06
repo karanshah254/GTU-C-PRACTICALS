@@ -13,7 +13,7 @@ int main(void)
 
     p = &i;
 
-    printf("\n Address of Variable i = %u", p);
+    printf("\n Address of Variable %d = %u",i, p);
 
     return 0;
 }

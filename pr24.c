@@ -1,32 +1,28 @@
 // Write a program to check whether the given number is prime or not.
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main() 
+int main()
 {
-  
+
   int no, i;
-  
-  printf("\n Enter No to check wheather its prime or not :");
-  scanf("%d", & no);
-  
-  for (i = 2; i < no; i++) 
+
+  printf("\nEnter No to check wheather its prime or not :");
+  scanf("%d", &no);
+
+  for (i = 2; i < no; i++)
   {
 
-    if (no % i == 0) 
+    if (no % i == 0)
     {
-      
-      printf("\n %d is not prime", no);
+
+      printf("\n%d is not prime", no);
       break;
-
     }
-  
   }
-  if (no == i) 
+  if (no == i)
   {
-    
-    printf("\n %d is prime", no);
-  
-  }
 
+    printf("\n%d is prime", no);
+  }
 }

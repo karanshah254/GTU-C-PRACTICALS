@@ -1,9 +1,9 @@
 /*
 
-ABCDE
-ABCD
-ABC
-AB
+A B C D E
+A B C D
+A B C
+A B
 A
 
 
@@ -14,11 +14,12 @@ A
 int main()
 {
     int i, j;
-    for(i=5; i>=1; i--)
+    
+    for (i = 5; i >= 1; i--)
     {
-        for(j=1; j<=i; j++)
+        for (j = 1; j <= i; j++)
         {
-            printf("%c", j+64);
+            printf(" %c", j + 64);
         }
         printf("\n");
     }

@@ -25,7 +25,6 @@ int main()
         scanf("%s", p[i].nm);
 
         fflush(stdin);
-
         printf("\nEnter Branch Name of Student %d : ", i + 1);
         scanf("%s", p[i].br);
 

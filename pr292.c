@@ -3,29 +3,28 @@
 
 2.
 
-
-*****
-****
-***
-**
+* * * * *
+* * * *
+* * *
+* *
 *
 
 
 */
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int i,j,n;
+    int i, j, n;
 
     printf("\nEnter Number Of Rows : ");
-    scanf("%d",&n);
+    scanf("%d", &n);
 
-    for(int i=n+1;i>1;i--)
+    for (int i = n + 1; i > 1; i--)
     {
-        for(int j=i;j>1;j--)
+        for (int j = i; j > 1; j--)
         {
-            printf("\t*");
+            printf(" *");
         }
 
         printf("\n");

@@ -1,20 +1,19 @@
-// Write a C program to find 1+1/2+1/3+1/4+….+1/n.
+// Write a C program to find 1+ 1/2+ 1/3+ 1/4+ ... +1/n.
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
 
-    int n,i;
-    float sum=0;
-    
+    int n, i;
+    float sum = 0;
+
     printf("\n Enter Value of n : ");
-    scanf("%d",&n);
-    
-    for(i=1;i<=n;i++)
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++)
     {
-        sum=sum+(1.0/i);
+        sum = sum + (1.0 / i);
     }
-    
-    printf("\n Sum of Series = %f",sum);
-    
+
+    printf("\n Sum of Series = %0.2f", sum);
 }

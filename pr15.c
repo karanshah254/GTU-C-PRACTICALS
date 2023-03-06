@@ -1,22 +1,34 @@
-//Write a C program to find out the Maximum and Minimum number from given 10 numbers
+// Write a C program to find out the Maximum and Minimum number from given 10 numbers
 #include <stdio.h>
 
-int main() {
+int main()
+{
   int a[10], i, min, max;
-  for (i = 0; i < 10; i++) {
-    printf("\n Enter Interger Value [%d] : ", i + 1);
-    scanf("%d", & a[i]);
-    if (i==0) {
-      min=max=a[i];
-    } else {
-      if (min>a[i]) {
-        min=a[i];
+
+  for (i = 0; i < 10; i++)
+  {
+
+    printf("\n Enter Value %d : ", i + 1);
+    scanf("%d", &a[i]);
+
+    if (i == 0)
+    {
+      min = max = a[i];
+    }
+    else
+    {
+      if (min > a[i])
+      {
+        min = a[i];
       }
-      if (max<a[i]) {
-        max=a[i];
+      if (max < a[i])
+      {
+        max = a[i];
       }
     }
   }
+
   printf("\n Minimum : %d", min);
+
   printf("\n Maximum : %d", max);
 }

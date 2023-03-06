@@ -7,11 +7,11 @@ int main()
 
     int temp;
 
-    printf("\n | Before Swapping Numbers are : %d    %d |",a,b);
+    printf("\n | Before Swapping Numbers are : %d    %d  |",a,b);
 
     temp=a;
     a=b;
     b=temp;
 
-    printf("\n | After Swapping Number are : %d     %d |",a,b);
+    printf("\n | After Swapping Number are :   %d     %d |",a,b);
 }

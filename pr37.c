@@ -1,32 +1,31 @@
 // Write a program to find a character from given string.
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main() 
+int main()
 {
-        char str[20], ch, flag = 1;
-        int i = 0;
-        
-        printf("\n Enter String : ");
-        gets(str);
-        
-        printf("Enter Character to Search in String :");
-        scanf("%c", & ch);
-        
-        printf("\n Character ");
-        
-        for (i = 0; str[i] != '\0'; i++) 
+    char str[20], ch, flag = 1;
+    int i = 0;
+
+    printf("\nEnter String : ");
+    gets(str);
+
+    printf("\nEnter Character to Search in String :");
+    scanf("%c", &ch);
+
+    printf("\nCharacter : ");
+
+    for (i = 0; str[i] != '\0'; i++)
+    {
+        if (str[i] == ch)
         {
-            if (str[i] == ch) 
-            {
-                printf(" %d ", i + 1);
-                flag = 0;
-            }
+            printf("%d", i + 1);
+            flag = 0;
         }
-        
-        if (flag == 1) 
-        {
-            printf("NOT FOUND");
-        }
-        
+    }
+
+    if (flag == 1)
+    {
+        printf("NOT FOUND");
+    }
 }
