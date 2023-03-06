@@ -1,7 +1,6 @@
 // Write a program to reverse string.
-
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 
 int main()
 {
@@ -11,7 +10,5 @@ int main()
     printf("\nEnter String : ");
     gets(s);
 
-    printf("\nReverse String : %s ",strrev(s));
-
-
+    printf("\nReverse String : %s ", strrev(s));
 }
